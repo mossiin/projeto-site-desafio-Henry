@@ -1,0 +1,11 @@
+.body{
+   background-image: url(../html_css/FUNDO.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.fundo{
+    background-color: bisque;
+    opacity: 0.4;
+   
+}
