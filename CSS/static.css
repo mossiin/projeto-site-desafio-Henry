@@ -2,17 +2,18 @@
     font-size: 50px;
     color: rgb(255, 255, 255);
     display: block;
-    transform: translateX(250px);
+    transform: translateX(20px);
     background-color: #4842a0; 
     border: none;
-    color: white;
+    color: rgb(243, 219, 141);
     padding: 30px 35px;
     text-align: center;
     display: inline-block;
-    font-size: 50px;
+    font-size: 30px;
     margin: 3px 1px;
     cursor: pointer;
     transition-duration: 0.4s;
+    border-radius: 22px;
 }
     .static:hover { 
         background-color: white; 
