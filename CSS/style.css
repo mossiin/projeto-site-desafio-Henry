@@ -1,136 +1,57 @@
 body {
-  font-family: Arial;
-}
-.nav-button {
-  border: 0;
-  border-radius: 4px;
-  padding: 2px;
-  background-color: rgb(255, 251, 251);
-  margin: 3px;
-  cursor: pointer;
-}
-.nav-button i {
-  color: #2f0aff;
-}
-
-.overlay {
-  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: rgba(0, 0, 0, 0.9);
-  z-index: 9;
-  position: fixed;
-  top: 0;
-  left: 0;
-  overflow-x: hidden;
-  transition: 0.7s;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.753);
 }
 
-.overlay-content {
-  font-family: Arial;
-  width: 100%;
-  position: relative;
-  top: 25%;
-  margin-top: 30px;
-  text-align: center;
-  color: aliceblue;
-  transition: 0.6s;
-}
-
-.overlay a {
-  color: rgb(255, 251, 251);
-  text-decoration: none;
-  padding: 10px;
-  left: 5px;
-  top: 30px;
-  font-size: 40px;
-}
-
-.overlay a:hover,
-.overlay a:focus {
-  color: #504949;
-}
-
-.overlay .closebtn {
-  position: absolute;
-  top: 25px;
-  right: 45px;
-  font-size: 60px;
-}
-
-.circulo {
-  background: red;
-  border-radius: 50%;
-  width: 1000px;
-  height: 1000px;
-  position: relative;
-  right: -1220px;
-  top: 320px;
-  overflow-y: hidden;
-  overflow-x: hidden;
-  box-shadow: -20px -20px 30px rgba(243, 4, 4, 0.337);
-}
-
-.texto {
-  font-size: 35px;
-  position: relative;
-  top: -500px;
-  right: -1370px;
-  color: white;
-}
-
-.hub-login {
-  width: 20%;
-  border: 10px;
-  top: -800px;
-  left: 200px;
-
-  border-radius: 10px;
-  position: relative;
-  padding: 20px;
-  background-color: rgb(146, 149, 153);
-  border-color: black;
-  box-shadow: 0px 10px 40px #00000056;
-}
-
-.hub-login > h1 {
-  color: rgba(255, 8, 8, 0.753);
-  font-weight: 800;
-}
-
-.textfield {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-}
-
-.textfield > input {
-  width: 70%;
-  padding: 10px;
+.nk-header > h1 {
+  backface-visibility: 0.3px;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.753);
   border-radius: 5px;
-  background-color: rgba(223, 219, 214, 0.719);
   color: white;
 }
 
-.textfield > label {
-  color: #fbff00;
-  box-shadow: -5px 2px #0000002d;
-}
+.container {
+  grid-template-columns: repeat(3, auto);
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.753);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
 
-.textfield > input {
-  background-color: rgba(163, 150, 134, 0.719);
+}
+.container p {
+  margin: zero;
+  position: relative;
   padding: 7px;
-  box-shadow: -5px 2px #0000002d;
-}
-.textfield > input::placeholder {
-  color: white;
+  top: -70px;
+  display: flex;
+  justify-content: space-around;
 }
 
-.btn-login {
-  border: none;
-  padding: 2px;
-  width: 20%;
-  text-transform: uppercase;
-  font-weight: 600;
-  border-radius: 4px;
-  letter-spacing: 1px;
+.menu_item1 {
+  color: white;
+  box-shadow: 1px 1px 5px rgba(255, 253, 253, 0.753);
+  border-radius: 50px;
+  size: 5px;
+  width: 5%;
+  left: 1200px;
+}
+
+.menu_item2 {
+  color: white;
+  box-shadow: 1px 1px 5px rgba(255, 253, 253, 0.753);
+  border-radius: 50px;
+  size: 5px;
+  width: 5%;
+ left: 400px;
+}
+
+.menu_item3 {
+  color: white;
+  box-shadow: 1px 1px 5px rgba(255, 253, 253, 0.753);
+  border-radius: 50px;
+  size: 5px;
+  width: 5%;
+  left: 90px;
 }
